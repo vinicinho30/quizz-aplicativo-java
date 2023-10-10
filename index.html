@@ -1,27 +1,43 @@
-<!--Created by Vinicius santos - vinicius-santos.vercel.app -->
-<!DOCTYPOE gtml>
+<!-- Created By Leticia Ferreira - leticia ferreira.vercel.app -->
+<!DOCTYPE html>
 <html lang="en">
 
-  <head> 
-    <meta charset="UTF-8">
-    <meta name="viewport" contyent="width=device-width, initial-scale=1.0">
-    <title>Quiz</title>
-    <link rel=stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
-  </head>
-
+<head>
+  <meta charset="UTF-8">
+  <meta name+"viewport" content="width=device-width, initial-scale=1.0">
+  <titlie>Quiz</titlie>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+</head>
   <body>
-    <!--start Quiz button -->
-    <div class="start_btn"><button><Começar!</button></Começa>div>
+    <!-- start Quizz button -->
+    <div class="start_btn"><button>Começar!</button></div>
+  </body>
 
-      <!-- info Box -->
-      <div class="info_box">
-        <div class="info-title"><span>algumas regras do Quiz!</span></div>
-        <div class="info-list">
-          <div class="info">1. Você terá apenas <apan> 30 segundos</apan> para cada questão.</div>
-          <div class="info">2. Uma vez selecionada a alternativa, não poderá ser desmarcada.</div>
-          <div class="info">3. Você não poderá selecionar a alternativa após o tempo terminar.</div>
-          <div class="info">4. Você não poderá sair do Quiz até terminar.</div>
-          <div class="info">5. Você ganhará <span>1 ponto</span> por questão respondida corretamente.</div>
-          <div class="info">6. Se você fizer <span>5 pontos</span>, você é um gênio! </div>
-        </div>
+  <!-- Info Box -->
+  <div class="info_box">
+    <div class="info-title"><span>Algumas regras do Quiz!</span></div>
+    <div class="info list">
+      <div class="info">1. Você terá apenas <span> 30 segundos</span> para cada questão.</div>
+      <div class="info">2. Uma vez selecionada a alternativa, não poderá ser desmarcada.</div>
+      <div class="info">3. Você não poderá selecionar a alternativa após o tempo terminar.</div>
+      <div class="info">4. Vocẽ não poderá sair do Quiz até terminar.</div>
+      <div class="info">5. Vocẽ ganhará <span>1 ponto</span> por questão respondida corretamente.</div>
+      <div class="info">6. Se vocẽ fizer <span>5 pontos</span>, vocẽ é um gẽnio!</div>
+    </div>
+    <div class="buttons">
+      <button class="quit">Sair do Quiz</button>
+      <button class="restart">Continuar</button>
+    </div>
+  </div>
+
+  <!-- Quiz Box -->
+  <div class="quiz_box">
+    <header>
+      <div class="title">Perguntas</div>
+      <div class="timer">
+        <div class="time_left_txt">Tempo restante</div>
+        <div class="timer_sec">30</div>
+      </div>
+      <div class="time_line"></div>
+    </header>
