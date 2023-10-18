@@ -2,8 +2,8 @@
 let questions = [
   {
     numb: 1,
-    question: "qual foi o clube que ganhou o munial em 2012 ?",
-    answer: "Corinthians",
+    question: "qual foi o clube que ganhou a libertadores de 2021 ?",
+    answer: "palmeiras",
     options: [
       "Corinthians",
       "Palmeiras",
@@ -24,10 +24,10 @@ let questions = [
   },
   {
     numb: 3,
-    question: "Qual o nome do rei do futebol Pelé?",
-    answer: "Edson Arantes do Nascimento",
+    question: "qual o maior artilheiro do futebol?",
+    answer: "cristiano ronaldo ",
     options: [
-      "Francisco Silva",
+      "cristiano ronaldo",
       "Edson Arantes do Nascimento",
       "Milton Nascimento",
       "Galvão Bueno"
@@ -46,13 +46,13 @@ let questions = [
   },
   {
     numb: 5,
-    question: "Qual o maior ídolo da história do Corinthians?",
-    answer: "Cassio Ramos",
+    question: "qual o maioir artilheiro da seleção brasileira?",
+    answer: "Neymar",
     options: [
-      "Neto",
+      "Neymar",
       "Danilo",
-      "Cassio Ramos",
-      "Roger Guedes"
+      "Pelé",
+      "Romario"
     ]
   },
   // you can uncomment the below codes and make duplicate as more as you want to add question
