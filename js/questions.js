@@ -3,7 +3,7 @@ let questions = [
   {
     numb: 1,
     question: "qual foi o clube que ganhou a libertadores de 2021 ?",
-    answer: "palmeiras",
+    answer: "Palmeiras",
     options: [
       "Corinthians",
       "Palmeiras",
