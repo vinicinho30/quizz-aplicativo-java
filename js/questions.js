@@ -25,7 +25,7 @@ let questions = [
   {
     numb: 3,
     question: "qual o maior artilheiro do futebol?",
-    answer: "Cristiano ronaldo ",
+    answer: "Cristiano ronaldo",
     options: [
       "Cristiano ronaldo",
       "Edson Arantes do Nascimento",
